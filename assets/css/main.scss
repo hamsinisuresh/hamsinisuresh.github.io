@@ -1,13 +1,6 @@
 ---
 ---
 
-/*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
- */
-
 @import
     "vendor/breakpoint/breakpoint",
 
@@ -42,41 +35,26 @@
     "vendor/font-awesome/brands"
 ;
 
-.archive__item-title {
-  font-size: 1.05em;
-  font-weight: 500;
-  margin-bottom: 0.1em;
-}
-
-.archive__item-excerpt {
-  font-size: 0.95em;
-  line-height: 1.5;
-}
-
-.archive__item-title {
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
-
-.archive__item-title a {
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
-
-/* ===== CLEAN compact publications ===== */
+/* ===== CLEAN COMPACT PUBLICATIONS ===== */
 
 /* Section headings */
 .archive h2 {
-  margin: 0.2em 0 0.2em 0 !important;
+  margin-top: 2em !important;   /* 2 line gap before section */
+  margin-bottom: 0.5em !important;
 }
 
 /* Each paper block */
 .archive__item {
-  margin: 0 !important;
+  margin: 0 0 1em 0 !important;  /* 1 line gap between papers */
   padding: 0 !important;
 }
 
-/* Inner wrapper (main culprit) */
+/* Remove extra gap after last item in a section */
+.archive__item:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Inner wrapper */
 .archive__item-body {
   margin: 0 !important;
   padding: 0 !important;
@@ -92,13 +70,13 @@
   border-bottom: none !important;
 }
 
-/* Remove link styling if any remains */
+/* Remove link styling */
 .archive__item-title a {
   text-decoration: none !important;
   border-bottom: none !important;
 }
 
-/* ALL text under title (venue, year, PDF) */
+/* Text under title */
 .archive__item-excerpt {
   margin: 0 !important;
   padding: 0 !important;
@@ -106,23 +84,20 @@
   line-height: 1.3;
 }
 
-/* Kill paragraph spacing (this is key) */
+/* Kill paragraph spacing */
 .archive__item-excerpt p {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* Remove spacing between elements */
+/* Remove spacing between inner elements */
 .archive__item-excerpt * {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
 
+/* Optional helper class */
 .pub-line {
   margin: 0;
   line-height: 1.3;
-}
-
-.archive__item-title {
-  margin: 0 !important;
 }
