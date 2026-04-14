@@ -140,8 +140,8 @@
 .site-nav a:hover,
 .masthead__menu-item a:hover,
 .greedy-nav a:hover {
-  background: rgba(0, 0, 0, 0.06);
-  text-decoration: none !important;
+  background: rgba(0, 0, 0, 0.05);
+  transform: translateY(-1px);
 }
 
 /* active tab (if theme uses active class) */
