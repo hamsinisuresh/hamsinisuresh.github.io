@@ -101,3 +101,19 @@
   margin: 0;
   line-height: 1.3;
 }
+
+/* spacing between papers */
+.list__item {
+  margin-bottom: 1em !important;
+}
+
+/* remove gap after last paper */
+.list__item:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* spacing before section headings */
+.archive h2 {
+  margin-top: 2em !important;
+  margin-bottom: 0.5em !important;
+}
