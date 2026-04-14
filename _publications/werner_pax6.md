@@ -5,5 +5,5 @@ category: preprints
 permalink: /publication/werner_pax6
 date: 2025-07-24
 venue: 'bioRxiv'
-paperurl: 'https://academicpages.github.io/files/paper1.pdf'
+paperurl: 'https://hamsinisuresh.github.io/files/werner_pax6.pdf'
 ---
