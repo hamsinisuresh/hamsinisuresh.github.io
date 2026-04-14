@@ -36,46 +36,47 @@
 ;
 
 
-/* ===== CLEAN COMPACT PUBLICATIONS ===== */
+/* ===============================
+   SECTION SPACING
+================================ */
 
-/* ---- Section headings (handles section spacing) ---- */
+/* section headings (between groups of pubs) */
 .archive h2,
 .archive__subtitle {
   margin-top: 2em !important;     /* 2-line gap between sections */
   margin-bottom: 0.5em !important;
 }
 
-/* remove extra space before FIRST section */
+/* remove top gap for first section */
 .archive h2:first-of-type,
 .archive__subtitle:first-of-type {
   margin-top: 0 !important;
 }
 
 
-/* ---- Each paper block (controls spacing between papers) ---- */
+/* ===============================
+   PAPER BLOCK SPACING
+================================ */
+
+/* spacing between papers */
 .archive .list__item {
-  margin-bottom: 0.8em !important;   /* ~1 line gap */
+  margin-bottom: 0.8em !important;  /* ~1 line gap */
 }
 
-/* remove gap after last paper in section */
+/* no extra space after last paper in section */
 .archive .list__item:last-child {
   margin-bottom: 0 !important;
 }
 
 
-/* ---- Inner wrapper ---- */
-.archive__item,
-.archive__item-body {
-  margin: 0 !important;
-  padding: 0 !important;
-}
+/* ===============================
+   TITLE (TOP OF PAPER)
+================================ */
 
-
-/* ---- Title ---- */
 .archive__item-title {
   font-size: 1.05em;
   font-weight: 500;
-  margin: 0 !important;
+  margin: 0 0 0.25em 0 !important;  /* title → meta gap */
   line-height: 1.25;
   text-decoration: none !important;
   border-bottom: none !important;
@@ -87,35 +88,26 @@
 }
 
 
-/* ---- Text under title ---- */
-.archive__item-excerpt {
-  margin: 0 !important;
-  padding: 0 !important;
-  font-size: 0.95em;
-  line-height: 1.3;
+/* ===============================
+   PUBLICATION META (LINE 1)
+================================ */
+
+.pub-meta {
+  margin: 0 0 0.25em 0 !important;  /* meta → links gap */
 }
 
-/* remove paragraph spacing */
-.archive__item-excerpt p {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* remove spacing between all inner elements */
-.archive__item-excerpt * {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-
-/* ---- Optional helper ---- */
 .pub-line {
-  margin: 0;
+  margin: 0 !important;
   line-height: 1.3;
 }
+
+
+/* ===============================
+   PUBLICATION LINKS (LINE 2)
+================================ */
 
 .pub-links {
-  margin-top: 0.15em !important;
+  margin: 0 0 0.8em 0 !important;   /* separation to next paper */
   font-size: 0.9em;
 }
 
