@@ -118,3 +118,35 @@
 .pub-links a:hover {
   text-decoration: underline;
 }
+
+/* ===============================
+   NAV / TABS → BUTTON STYLE
+================================ */
+
+/* base tab links */
+.site-nav a,
+.masthead__menu-item a,
+.greedy-nav a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+
+  padding: 0.35em 0.7em;
+  border-radius: 6px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+/* hover state → button feel */
+.site-nav a:hover,
+.masthead__menu-item a:hover,
+.greedy-nav a:hover {
+  background: rgba(0, 0, 0, 0.06);
+  text-decoration: none !important;
+}
+
+/* active tab (if theme uses active class) */
+.site-nav .active a,
+.masthead__menu-item--active a {
+  background: rgba(0, 0, 0, 0.10);
+  border-radius: 6px;
+}
