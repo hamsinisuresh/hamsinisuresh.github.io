@@ -47,22 +47,35 @@
         {{ post.date | default: "1900-01-01" | date: "%Y" }}
       </p>
 
-    <!-- Publications (CLEAN COMPACT FORMAT) -->
+    <!-- Publications (2-line CLEAN FORMAT) -->
     {% elsif post.collection == 'publications' %}
+    
+      <!-- Line 1: venue + year -->
       <div class="pub-line">
         <i>{{ post.venue }}</i>
         ({{ post.date | default: "2020-01-01" | date: "%Y" }})
-
-        {% if post.paperurl %}
-          <a href="{{ post.paperurl }}">[PDF]</a>
-        {% endif %}
-        {% if post.slidesurl %}
-          <a href="{{ post.slidesurl }}">[Slides]</a>
-        {% endif %}
-        {% if post.bibtexurl %}
-          <a href="{{ post.bibtexurl }}">[BibTeX]</a>
-        {% endif %}
       </div>
+    
+      <!-- Line 2: links -->
+      {% if post.paperurl or post.slidesurl or post.bibtexurl %}
+        <div class="pub-links">
+    
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}">PDF</a>
+          {% endif %}
+    
+          {% if post.slidesurl %}
+            {% if post.paperurl %} | {% endif %}
+            <a href="{{ post.slidesurl }}">Slides</a>
+          {% endif %}
+    
+          {% if post.bibtexurl %}
+            {% if post.paperurl or post.slidesurl %} | {% endif %}
+            <a href="{{ post.bibtexurl }}">BibTeX</a>
+          {% endif %}
+    
+        </div>
+      {% endif %}
 
     <!-- Default posts -->
     {% elsif post.date %}
