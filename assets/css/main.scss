@@ -63,39 +63,20 @@
   border-bottom: none !important;
 }
 
-/* Reduce space after section headings */
+/* ===== CLEAN compact publications ===== */
+
+/* Section headings */
 .archive h2 {
-  margin-bottom: 0.3em;
+  margin: 0.2em 0 0.2em 0 !important;
 }
 
-/* Tighten spacing between papers */
+/* Each paper block */
 .archive__item {
-  margin-bottom: 0.5em !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Remove gap for venue/year line */
-.archive__item-excerpt p {
-  margin-bottom: 0.1em !important;
-}
-
-/* Remove gap for PDF / links */
-.archive__item-excerpt p:last-child {
-  margin-bottom: 0 !important;
-}
-
-/* ===== Tight publication spacing ===== */
-
-/* Section headings (Journal Articles, etc.) */
-.archive h2 {
-  margin-bottom: 0.2em !important;
-}
-
-/* Each publication block */
-.archive__item {
-  margin-bottom: 0.3em !important;
-}
-
-/* Remove extra wrapper spacing */
+/* Inner wrapper (main culprit) */
 .archive__item-body {
   margin: 0 !important;
   padding: 0 !important;
@@ -103,17 +84,35 @@
 
 /* Title */
 .archive__item-title {
+  font-size: 1.05em;
+  font-weight: 500;
   margin: 0 !important;
+  line-height: 1.25;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* Remove link styling if any remains */
+.archive__item-title a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* ALL text under title (venue, year, PDF) */
+.archive__item-excerpt {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 0.95em;
   line-height: 1.3;
 }
 
-/* All text inside (venue, year, links) */
+/* Kill paragraph spacing (THIS is key) */
 .archive__item-excerpt p {
   margin: 0 !important;
-  line-height: 1.4;
+  padding: 0 !important;
 }
 
-/* Ensure no hidden spacing anywhere inside */
+/* Remove spacing between elements */
 .archive__item-excerpt * {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
