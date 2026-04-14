@@ -107,13 +107,13 @@
   margin-bottom: 0.5em !important;
 }
 
-/* remove gap after last paper */
-.list__item:last-child {
-  margin-bottom: 0.5em !important;
-}
-
 /* spacing before section headings */
 .archive h2 {
   margin-top: 1em !important;
+  margin-bottom: 0.5em !important;
+}
+
+/* remove gap after last paper */
+.list__item:last-child {
   margin-bottom: 0.5em !important;
 }
