@@ -45,16 +45,12 @@
 .archive__item-title {
   font-size: 1.05em;
   font-weight: 500;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.1em;
 }
 
 .archive__item-excerpt {
   font-size: 0.95em;
   line-height: 1.5;
-}
-
-.archive__item {
-  margin-bottom: 0.8em;
 }
 
 .archive__item-title {
@@ -65,4 +61,24 @@
 .archive__item-title a {
   text-decoration: none !important;
   border-bottom: none !important;
+}
+
+/* Reduce space after section headings */
+.archive h2 {
+  margin-bottom: 0.3em;
+}
+
+/* Tighten spacing between papers */
+.archive__item {
+  margin-bottom: 0.5em !important;
+}
+
+/* Remove gap for venue/year line */
+.archive__item-excerpt p {
+  margin-bottom: 0.1em !important;
+}
+
+/* Remove gap for PDF / links */
+.archive__item-excerpt p:last-child {
+  margin-bottom: 0 !important;
 }
