@@ -32,7 +32,7 @@
       {{ title }}
     </h2>
 
-    <!-- Meta -->
+    <!-- Meta (READ TIME etc.) -->
     {% if post.read_time %}
       <p class="page__meta">
         <i class="fa fa-clock" aria-hidden="true"></i>
@@ -43,37 +43,39 @@
     <!-- Teaching -->
     {% if post.collection == 'teaching' %}
       <p>
-        {{ post.type }}, <i>{{ post.venue }}</i>, 
+        {{ post.type }}, <i>{{ post.venue }}</i>,
         {{ post.date | default: "1900-01-01" | date: "%Y" }}
       </p>
 
-    <!-- Publications (2-line CLEAN FORMAT) -->
+    <!-- Publications -->
     {% elsif post.collection == 'publications' %}
-    
-      <!-- Line 1: venue + year -->
-      <div class="pub-line">
-        <i>{{ post.venue }}</i>
-        ({{ post.date | default: "2020-01-01" | date: "%Y" }})
+
+      <!-- PUB META (Venue + Year) -->
+      <div class="pub-meta">
+        <div class="pub-line">
+          <i>{{ post.venue }}</i>
+          ({{ post.date | default: "2020-01-01" | date: "%Y" }})
+        </div>
       </div>
-    
-      <!-- Line 2: links -->
+
+      <!-- PUB LINKS -->
       {% if post.paperurl or post.slidesurl or post.bibtexurl %}
         <div class="pub-links">
-    
+
           {% if post.paperurl %}
             <a href="{{ post.paperurl }}">PDF</a>
           {% endif %}
-    
+
           {% if post.slidesurl %}
             {% if post.paperurl %} | {% endif %}
             <a href="{{ post.slidesurl }}">Slides</a>
           {% endif %}
-    
+
           {% if post.bibtexurl %}
             {% if post.paperurl or post.slidesurl %} | {% endif %}
             <a href="{{ post.bibtexurl }}">BibTeX</a>
           {% endif %}
-    
+
         </div>
       {% endif %}
 
@@ -90,7 +92,7 @@
       </p>
     {% endif %}
 
-    <!-- Excerpt (disabled for publications to avoid spacing) -->
+    <!-- Excerpt -->
     {% if post.excerpt and site.read_more != 'enabled' and post.collection != 'publications' %}
       <p class="archive__item-excerpt" itemprop="description">
         {{ post.excerpt | markdownify }}
