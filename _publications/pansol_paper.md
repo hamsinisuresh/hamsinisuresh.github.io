@@ -1,13 +1,13 @@
 ---
-title: "The misplaced mouse Pax6 interneuron subclass: A cross-species transcriptomic reassignment"
+title: "Solanum pan-genetics reveals paralogues as contingencies in crop engineering"
 collection: publications
 category: manuscripts
 permalink: /publication/pansol_paper
 date: 2025-07-24
 venue: 'bioRxiv'
-paperurl: 'https://hamsinisuresh.github.io/files/werner_pax6.pdf'
+paperurl: 'https://hamsinisuresh.github.io/files/pansol_paper.pdf'
 authors:
-  - "Nikolas Werner"
+  - "Matthias<sup>†</sup>"
   - "<span style='color: #b22222;'>Hamsini Suresh</span>"
   - "Jesse Gillis"
 ---
