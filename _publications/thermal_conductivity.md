@@ -1,13 +1,16 @@
 ---
-title: "The misplaced mouse Pax6 interneuron subclass: A cross-species transcriptomic reassignment"
+title: "Thermal conductivity of carbon nanotube and hexagonal boron nitride polymer composites"
 collection: publications
 category: manuscripts
 permalink: /publication/thermal_conductivity
-date: 2025-07-24
-venue: 'bioRxiv'
-paperurl: 'https://hamsinisuresh.github.io/files/werner_pax6.pdf'
+date: 2016-09-01
+venue: 'Composites Part B: Engineering'
+paperurl: 'https://hamsinisuresh.github.io/files/thermal_conductivity.pdf'
 authors:
-  - "Nikolas Werner"
+  - "Majid TabkhPaz"
+  - "Shaghayegh Shajari"
+  - "Mehdi Mahmoodi"
+  - "Dong-Yeob Park"
   - "<span style='color: #b22222;'>Hamsini Suresh</span>"
-  - "Jesse Gillis"
+  - "Simon S. Park"
 ---
