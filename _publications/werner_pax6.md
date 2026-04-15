@@ -6,5 +6,8 @@ permalink: /publication/werner_pax6
 date: 2025-07-24
 venue: 'bioRxiv'
 paperurl: 'https://hamsinisuresh.github.io/files/werner_pax6.pdf'
-authors: Werner, Suresh, Gillis
+authors:
+  - "Jonathan Werner"
+  - "**Hamsini Suresh**"
+  - "Jesse Gillis"
 ---
