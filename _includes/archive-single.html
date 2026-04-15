@@ -50,12 +50,22 @@
     <!-- Publications -->
     {% elsif post.collection == 'publications' %}
 
-      <!-- PUB META (Venue + Year) -->
+      <!-- PUB META -->
       <div class="pub-meta">
+
+        <!-- Authors -->
+        {% if post.authors %}
+          <div class="pub-authors">
+            {{ post.authors | join: ", " }}
+          </div>
+        {% endif %}
+
+        <!-- Venue + Year -->
         <div class="pub-line">
           <i>{{ post.venue }}</i>
           ({{ post.date | default: "2020-01-01" | date: "%Y" }})
         </div>
+
       </div>
 
       <!-- PUB LINKS -->
