@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/WCB
 date: 2018-02-17
 venue: 'Proceedings of the 8th World Congress of Biomechanics'
-paperurl: 'https://academicpages.github.io/files/WCB2018_abstract_hamsini.pdf'
+paperurl: 'https://hamsinisuresh.github.io/files/WCB2018_abstract_hamsini.pdf'
 authors:
   - "<span style='color: #b22222;'>Hamsini Suresh</span>"
   - "Antonetta B. C. Buskermolen"
