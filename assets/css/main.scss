@@ -40,51 +40,51 @@
    SECTION SPACING
 ================================ */
 
-/* section headings (between groups of pubs) */
 .archive h2,
 .archive__subtitle {
-  margin-top: 2em !important;     /* 2-line gap between sections */
+  margin-top: 2em !important;
   margin-bottom: 0em !important;
 }
 
-/* remove top gap for first section */
+/* first section spacing below title */
 .archive h2:first-of-type,
 .archive__subtitle:first-of-type {
   margin-top: 1.5em !important;
 }
 
-/* space below "Publications" page title */
+/* space below "Publications" */
 .page__title {
-  margin-bottom: 1em !important;   /* try 1–1.5em */
+  margin-bottom: 1em !important;
 }
+
 
 /* ===============================
    PAPER BLOCK SPACING
 ================================ */
 
-/* spacing between papers */
 .archive .list__item {
-  margin-bottom: 0.8em !important;  /* ~1 line gap */
+  margin-bottom: 0.8em !important;
 }
 
-/* no extra space after last paper in section */
 .archive .list__item:last-child {
   margin-bottom: 0 !important;
 }
 
-/* remove extra gap before first paper in each section */
-.archive .list__item:first-child {
-  margin-top: -0.8em !important;
+/* ✅ FIX: remove gap between section heading and first paper */
+.archive__subtitle + .list__item .archive__item,
+.archive h2 + .list__item .archive__item {
+  margin-top: 0 !important;   /* change to -0.5em if you want tighter */
 }
 
+
 /* ===============================
-   TITLE (TOP OF PAPER)
+   TITLE
 ================================ */
 
 .archive__item-title {
   font-size: 1.05em;
   font-weight: 500;
-  margin: 0 0 0.1em 0 !important;  /* title → meta gap */
+  margin: 0 0 0.1em 0 !important;
   line-height: 1.25;
   text-decoration: none !important;
   border-bottom: none !important;
@@ -97,11 +97,11 @@
 
 
 /* ===============================
-   PUBLICATION META (LINE 1)
+   PUBLICATION META
 ================================ */
 
 .pub-meta {
-  margin: 0 0 0.2em 0 !important;  /* meta → links gap */
+  margin: 0 0 0.2em 0 !important;
 }
 
 .pub-line {
@@ -111,11 +111,11 @@
 
 
 /* ===============================
-   PUBLICATION LINKS (LINE 2)
+   PUBLICATION LINKS
 ================================ */
 
 .pub-links {
-  margin: 0 0 1em 0 !important;   /* separation to next paper */
+  margin: 0 0 1em 0 !important;
   font-size: 0.9em;
 }
 
@@ -127,11 +127,11 @@
   text-decoration: underline;
 }
 
+
 /* ===============================
-   NAV / TABS → BUTTON STYLE
+   NAV / TABS
 ================================ */
 
-/* base tab links */
 .site-nav a,
 .masthead__menu-item a,
 .greedy-nav a {
@@ -144,7 +144,6 @@
   transition: all 0.2s ease-in-out;
 }
 
-/* hover state → button feels */
 .site-nav a:hover,
 .masthead__menu-item a:hover,
 .greedy-nav a:hover {
@@ -152,19 +151,19 @@
   transform: translateY(-1px);
 }
 
-/* active tab (if theme uses active class) */
 .site-nav .active a,
 .masthead__menu-item--active a {
   background: rgba(0, 0, 0, 0.10);
   border-radius: 6px;
 }
 
+
 /* ===============================
-   GLOBAL FONT SIZE REDUCTION
+   GLOBAL FONT SIZE
 ================================ */
 
 html {
-  font-size: 16px !important;  /* default is usually 16px */
+  font-size: 16px !important;
 }
 
 body {
