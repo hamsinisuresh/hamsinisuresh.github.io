@@ -1,7 +1,7 @@
 ---
 title: "The misplaced mouse Pax6 interneuron subclass: A cross-species transcriptomic reassignment"
 collection: publications
-category: preprints
+category: manuscripts
 permalink: /publication/BICCN_primate_brain_paper
 date: 2025-07-24
 venue: 'bioRxiv'
