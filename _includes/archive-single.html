@@ -56,7 +56,7 @@
         <!-- Authors -->
         {% if post.authors %}
           <div class="pub-authors">
-            {{ post.authors | join: ", " }}
+            {{ post.authors | join: ", " | markdownify | remove: "<p>" | remove: "</p>" }}
           </div>
         {% endif %}
 
