@@ -40,12 +40,14 @@
    SECTION SPACING
 ================================ */
 
+/* section headings (between groups of pubs) */
 .archive h2,
 .archive__subtitle {
-  margin-top: 2em !important;
+  margin-top: 2em !important;     /* 2-line gap between sections */
   margin-bottom: 0.5em !important;
 }
 
+/* remove top gap for first section */
 .archive h2:first-of-type,
 .archive__subtitle:first-of-type {
   margin-top: 0 !important;
@@ -56,23 +58,25 @@
    PAPER BLOCK SPACING
 ================================ */
 
+/* spacing between papers */
 .archive .list__item {
-  margin-bottom: 0.8em !important;
+  margin-bottom: 0.8em !important;  /* ~1 line gap */
 }
 
+/* no extra space after last paper in section */
 .archive .list__item:last-child {
   margin-bottom: 0 !important;
 }
 
 
 /* ===============================
-   TITLE
+   TITLE (TOP OF PAPER)
 ================================ */
 
 .archive__item-title {
   font-size: 1.05em;
   font-weight: 500;
-  margin: 0 0 0.05em 0 !important;   /* tighter */
+  margin: 0 0 0.1em 0 !important;  /* title → meta gap */
   line-height: 1.25;
   text-decoration: none !important;
   border-bottom: none !important;
@@ -85,39 +89,25 @@
 
 
 /* ===============================
-   PUBLICATION META
+   PUBLICATION META (LINE 1)
 ================================ */
 
 .pub-meta {
-  margin: 0 0 0.15em 0 !important;   /* slightly tighter */
+  margin: 0 0 0.2em 0 !important;  /* meta → links gap */
 }
 
-
-/* AUTHORS LINE (this was missing before) */
-.pub-authors {
-  margin: 0 0 0.08em 0 !important;   /* very tight title→authors */
-  line-height: 1.25;
-}
-
-/* CRITICAL: remove hidden <p> spacing from markdownify */
-.pub-authors p {
-  margin: 0 !important;
-}
-
-
-/* VENUE LINE */
 .pub-line {
   margin: 0 !important;
-  line-height: 1.25;
+  line-height: 1.3;
 }
 
 
 /* ===============================
-   PUBLICATION LINKS
+   PUBLICATION LINKS (LINE 2)
 ================================ */
 
 .pub-links {
-  margin: 0 0 1em 0 !important;
+  margin: 0 0 1em 0 !important;   /* separation to next paper */
   font-size: 0.9em;
 }
 
@@ -129,11 +119,11 @@
   text-decoration: underline;
 }
 
-
 /* ===============================
-   NAV / TABS
+   NAV / TABS → BUTTON STYLE
 ================================ */
 
+/* base tab links */
 .site-nav a,
 .masthead__menu-item a,
 .greedy-nav a {
@@ -146,6 +136,7 @@
   transition: all 0.2s ease-in-out;
 }
 
+/* hover state → button feels */
 .site-nav a:hover,
 .masthead__menu-item a:hover,
 .greedy-nav a:hover {
@@ -153,19 +144,19 @@
   transform: translateY(-1px);
 }
 
+/* active tab (if theme uses active class) */
 .site-nav .active a,
 .masthead__menu-item--active a {
   background: rgba(0, 0, 0, 0.10);
   border-radius: 6px;
 }
 
-
 /* ===============================
-   GLOBAL FONT SIZE
+   GLOBAL FONT SIZE REDUCTION
 ================================ */
 
 html {
-  font-size: 16px !important;
+  font-size: 16px !important;  /* default is usually 16px */
 }
 
 body {
