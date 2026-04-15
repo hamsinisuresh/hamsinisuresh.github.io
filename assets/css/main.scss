@@ -72,6 +72,10 @@
   margin-bottom: 0 !important;
 }
 
+/* remove extra gap before first paper in each section */
+.archive .list__item:first-child {
+  margin-top: -0.3em !important;
+}
 
 /* ===============================
    TITLE (TOP OF PAPER)
