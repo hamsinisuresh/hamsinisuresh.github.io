@@ -1,13 +1,18 @@
 ---
-title: "Paper - WCB 2018"
+title: "Contact guidance of single cells on adhesive lines"
 collection: publications
 category: conferences
 permalink: /publication/WCB
-excerpt: 'This paper is about a famous math equation, $$E=mc^2$$'
 date: 2018-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+venue: 'Proceedings of the 8th World Congress of Biomechanics'
+paperurl: 'https://academicpages.github.io/files/WCB2018_abstract_hamsini.pdf'
+authors:
+  - "<span style='color: #b22222;'>Hamsini Suresh</span>"
+  - "Antonetta B. C. Buskermolen"
+  - "Siamak S Shishvan"
+  - "Andrea Vigliotti"
+  - "Antonio DeSimone"
+  - "Nicholas A. Kurniawan"
+  - "Carlijn V. C. Bouten"
+  - "Vikram S Deshpande"
 ---
-
-Using [MathJax](https://www.mathjax.org/) in the description is supported - $$E=mc^2$$ - however, the use must be mindful that the default delimiters are `$$...$$` and `\\[...\\]` which differs from the `$...$` that is typically expected.
