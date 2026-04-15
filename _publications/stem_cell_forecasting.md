@@ -1,5 +1,5 @@
 ---
-title: "The misplaced mouse Pax6 interneuron subclass: A cross-species transcriptomic reassignment"
+title: "Free-energy-based framework for early forecasting of stem cell differentiation"
 collection: publications
 category: preprints
 permalink: /publication/werner_pax6
