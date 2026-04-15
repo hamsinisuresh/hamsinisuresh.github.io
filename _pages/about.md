@@ -11,4 +11,4 @@ I am a postdoctoral research associate with [Jesse Gillis](https://thedonnellyce
 
 I completed my PhD in Engineering at the University of Cambridge under the guidance of [Vikram Deshpande](https://www.eng.cam.ac.uk/profiles/vsd20), supported by the Commonwealth Scholarship. Prior to that, I earned a dual degree (BTech (Honors), MTech) in Mechanical Engineering from IIT Madras.
 
-I study how mechanical and gene regulatory cues shape cell identity, and how to reprogram them to restore function in disease.
+I study how mechanical and gene regulatory cues shape cell identity, and how to exploit them to restore function in disease.
