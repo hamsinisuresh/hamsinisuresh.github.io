@@ -9,7 +9,7 @@ venue: 'Biophysical Journal'
 paperurl: 'https://academicpages.github.io/files/paper3.pdf'
 authors:
   - "Nikolas L. Jorstad<sup>†</sup>"
-  - "<span style='color: #b22222;'>Hamsini Suresh</span><sup>†</sup>"
+  - "<span style='color: #b22222;'>Hamsini Suresh<sup>†</sup></span>"
   - "..."
   - "Christopher A. Walsh"
   - "Alexander Dobin"
