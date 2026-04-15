@@ -1,11 +1,11 @@
 ---
 title: "Free-energy-based framework for early forecasting of stem cell differentiation"
 collection: publications
-category: preprints
-permalink: /publication/werner_pax6
-date: 2025-07-24
-venue: 'bioRxiv'
-slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
-paperurl: 'https://hamsinisuresh.github.io/files/werner_pax6.pdf'
+category: manuscripts
+permalink: /publication/stem_cell_forecasting
+date: 2019-12-18
+venue: 'Royal Society Interface'
+slidesurl: 'https://academicpages.github.io/files/CUED_poster.pdf'
+paperurl: 'https://hamsinisuresh.github.io/files/stem_cell_forecasting.pdf'
 ---
 
