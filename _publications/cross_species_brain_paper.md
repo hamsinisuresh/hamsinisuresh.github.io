@@ -1,13 +1,18 @@
 ---
-title: "The misplaced mouse Pax6 interneuron subclass: A cross-species transcriptomic reassignment"
+title: "Comparative single-cell transcriptomic analysis of primate brains highlights human-specific regulatory evolution"
 collection: publications
 category: manuscripts
 permalink: /publication/cross_species_brain_paper
-date: 2025-07-24
-venue: 'bioRxiv'
-paperurl: 'https://hamsinisuresh.github.io/files/werner_pax6.pdf'
+date: 2023-09-04
+venue: 'Nature Ecology & Evolution'
+paperurl: 'https://hamsinisuresh.github.io/files/cross_species_brain_paper.pdf'
 authors:
-  - "Nikolas Werner"
   - "<span style='color: #b22222;'>Hamsini Suresh</span>"
+  - "Megan Crow"
+  - "Nikolas Jorstad"
+  - "Rebecca Hodge"
+  - "Ed Lein"
+  - "Alexander Dobin"
+  - "Trygve Bakken"
   - "Jesse Gillis"
 ---
