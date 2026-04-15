@@ -1,20 +1,18 @@
 ---
-title: "Entropic forces drive cellular contact guidance"
+title: "Entropic Forces Drive Cellular Contact Guidance"
 collection: publications
 category: manuscripts
 permalink: /publication/contact_guidance_paper
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2019-10-01
+date: 2019-05-21
 venue: 'Biophysical Journal'
-paperurl: 'https://academicpages.github.io/files/paper3.pdf'
+paperurl: 'https://hamsinisuresh.github.io/files/contact_guidance_paper.pdf'
 authors:
-  - "Nikolas L. Jorstad<sup>†</sup>"
+  - "Antonetta B. C. Buskermolen<sup>†</sup>"
   - "<span style='color: #b22222;'>Hamsini Suresh<sup>†</sup></span>"
-  - "..."
-  - "Christopher A. Walsh"
-  - "Alexander Dobin"
-  - "Jesse Gillis"
-  - "Ed S. Lein"
-  - "Rebecca D. Hodge"
+  - "Siamak S. Shishvan"
+  - "Andrea Vigliotti"
+  - "Antonio DeSimone"
+  - "Nicholas A. Kurniawan"
+  - "Carlijn V. C. Bouten"
   - "Vikram S. Deshpande"
 ---
