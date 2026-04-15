@@ -8,7 +8,7 @@ venue: 'Royal Society Interface'
 slidesurl: 'https://hamsinisuresh.github.io/files/CUED_poster.pdf'
 paperurl: 'https://hamsinisuresh.github.io/files/stem_cell_forecasting.pdf'
 authors:
-  - "**Hamsini Suresh**"
+  - "<span class='me'>Hamsini Suresh</span>"
   - "Siamak S Shishvan"
   - "Andrea Vigliotti"
   - "Vikram S Deshpande"
