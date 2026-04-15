@@ -3,8 +3,8 @@ title: "Solanum pan-genetics reveals paralogues as contingencies in crop enginee
 collection: publications
 category: manuscripts
 permalink: /publication/pansol_paper
-date: 2025-07-24
-venue: 'bioRxiv'
+date: 2025-03-05
+venue: 'Nature'
 paperurl: 'https://hamsinisuresh.github.io/files/pansol_paper.pdf'
 authors:
   - "Matthias Benoit<sup>†</sup>"
