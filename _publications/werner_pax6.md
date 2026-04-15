@@ -8,6 +8,6 @@ venue: 'bioRxiv'
 paperurl: 'https://hamsinisuresh.github.io/files/werner_pax6.pdf'
 authors:
   - "Jonathan Werner"
-  - "**Hamsini Suresh**"
+  - "<span style='color: #b22222;'>Hamsini Suresh</span>"
   - "Jesse Gillis"
 ---
