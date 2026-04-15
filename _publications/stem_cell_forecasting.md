@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/stem_cell_forecasting
 date: 2019-12-18
 venue: 'Royal Society Interface'
-slidesurl: 'https://academicpages.github.io/files/CUED_poster.pdf'
+slidesurl: 'https://hamsinisuresh.github.io/files/CUED_poster.pdf'
 paperurl: 'https://hamsinisuresh.github.io/files/stem_cell_forecasting.pdf'
 ---
 
